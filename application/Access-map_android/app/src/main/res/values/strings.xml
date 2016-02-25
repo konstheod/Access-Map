@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Access-map</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="google_api_key">AIzaSyBDE2iyiuTKoU1Fu39gUpTDvTW_ww2xUPg</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_mapmenuactivity">Mapmenu</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="last_destinations">Last Destinations:</string>
+
+</resources>

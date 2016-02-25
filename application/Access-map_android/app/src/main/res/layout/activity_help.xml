@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.johnbad.access_map.Help"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tvHelp"
+                android:textSize="17dp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:text="Οι λειτουργίες που προσφέρονται στον χρήστη είναι οι εξής:\n\n\t\u2022 Ο χάρτης της Google, για να μπορεί ο χρήστης να δει την τοποθεσία του και να πλοηγηθεί μέσα στην πόλη σύμφωνα με την διαδρομή που θα του εμφανισθεί.\n\n\t\u2022 Το Menu, το οποίο περιλαμβάνει:\n\n\t\t- Edit Account: Εμφάνιση προσωπικών στοιχείων του προφίλ του χρήστη, καθώς και η δυνατότητα επεξεργασίας τους.\n\n\t\t- Delete Accout: Διαγραφή του προσωπικού λογαριασμού του χρήστη από την εφαρμογή.\n\n\t\t- Route Histroy: Εμφάνιση των 5 τελευταίων καταχωρημένων διαδρομών του χρήστη. Ο χρήστης μπορεί να κλικάρει όποιο προορισμό θέλει και αυτόματα θα γίνει αναζήτηση διαδρομής.\n\n\t\t- Report Problem: Δυνατότητα αναφοράς πιθανών προβλημάτων της εφαρμογής με email.\n\n\t\t- Help: Πληροφορίες σχετικά με τον τρόπο χρήσης της εφαρμογής.\n\n\t\t- Logout: Έξοδος του χρήστη από τον προσωπικό του λογαριασμό.\n\n\t\u2022 To πεδίο Search, για την αναζήτηση του επιθυμητού προορισμού και την εμφάνιση του στον χάρτη.\n\n\t\u2022 To εικονίδιο με τις 3 τελείες, το οποίο περιλαμβάνει:\n\n\t\t- Clear Map: Καθαρισμός του χάρτη.\n\n\t\t- About us: Πληροφορίες σχετικά για την εφαρμογή.\n\n\t\u2022 Το κουμπί Finish, για την αξιολόγηση της διαδρομής που έκανε ο χρήστης. Πατώντας το κουμπί εμφανίζεται μια φόρμα για την εισαγωγή της βαθμολογίας (0-10).\n\n\t\u2022 Το κουμπί κινδύνου, για την άμεση κλήση του αριθμού έκτακτης ανάγκης που έχει καταχωρήσει ο χρήστης. (Σε περίπτωση που δεν έχει καταχωρήσει αριθμό ο χρήστης, καλείται το 112)\n"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

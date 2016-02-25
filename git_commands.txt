@@ -1,0 +1,23 @@
+git init.
+git status (τι περιεχει)
+git add "ονομα"
+git commit -m "comment" (στιγμιοτυπο για παραδειγμα στο τελος του story)
+
+git log
+git diff
+git clone μερος ονομα project (τοπικο αντιγραφο για τη πρωτη φορα
+git remote add ονομα μερος:project name
+git pull origin master
+git branch -r
+git checkout -b onoma (βγες και κανε καινουργιο branch)
+git push origin onoma (για να σταλουν στον server οι αλλαγες)
+git checkout onoma (γυρνα στην προηγουμενη φαση)
+αν εχω ηδη κανει commit git checkout νουμερο ονομα_αρχειου
+
+gitγ για αλλαγες
+
+git bisect start		{				}
+git bisect bad   		{για να βρω που ειναι λαθος	}
+git bisect good "αριθμοσ" 	{				}
+
+git merge ονομα1 παιρνει απο το ονομα1 και βαζει τις αλλαγες στο branch που ειμαστε
